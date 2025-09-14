@@ -1,0 +1,1 @@
+using vite build  --- dist folder ko backend k folder main daal dete hai aur midlle ware aur static asset wagera use karke frontend ko backend main dal dete hai aur backend ko hi sirf deploy kar dete hai 
