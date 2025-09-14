@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public API Explorer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        img {
+            max-width: 300px;
+            margin-top: 20px;
+        }
+        
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Public API Explorer</h1>
+    <button id="dogBtn">Random Dog</button>
+    <button id="jokeBtn">Random Joke</button>
+    <button id="weatherBtn">Weather in Your City</button>
+
+    <div id="output"></div>
+    <img id="dogImg" src="" alt="" style="display:none;">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
